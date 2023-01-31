@@ -1,0 +1,4 @@
+jdk:
+  - openjdk17
+install:
+  - mvn install:install-file -Dfile=plotsquared-api-3.1.jar -DgroupId=cn.powernukkitx -DartifactId=Plotsquared-api -Dversion=3.1 -Dpackaging=jar -DgeneratePom=true
